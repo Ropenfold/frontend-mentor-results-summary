@@ -1,0 +1,105 @@
+.mainContainer {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center; 
+}
+
+.backgroundContainer {
+    width: 736px;
+    height: 512px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: row; 
+    border-radius:15px;
+    filter: drop-shadow(#cecccc 0.3rem 0.3rem 6px);
+}
+
+.resultContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 368px;
+    height: 512px;
+    background: linear-gradient(
+    to bottom, /* Gradient direction from top to bottom */
+    #7755FF 0%, /* First color starts at 0% */
+    #6943FF 0%, /* Second color also starts at 0% (overlapping) */
+    #2F2CE9 100% /* Third color at 100% */
+  );
+    border-radius:15px;
+    padding: 20px;
+}
+
+.summaryContainer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 368px;
+    height: 512px;
+    background-color: whitesmoke;
+    border-radius:0px 15px 15px 0px;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+        width: 200px;
+        height: 200px;
+        background: linear-gradient(
+    to bottom, /* Gradient direction from top to bottom */
+    #4D21C9 100%, /* First color starts at 0% */
+    #2521C9 0%, /* Second color also starts at 0% (overlapping) */
+    #2521C9 0% /* Third color at 100% */
+  );
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .resultsHeader {
+        margin: 0;
+        font-size: 22px;
+        color: lightblue;
+    }
+
+    .resultsScore {
+        font-family: 'HankenGrotesk', sans-serif;
+        font-size:63px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .resultsTotalScore {
+        color: white;
+    }
+
+    .resultsRating {
+        color: white;
+        font-size: 30px;
+    }
+
+    .resultsComparisonText {
+        color:white;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+    }
+
+    .scoreContainer {
+        background-color: aqua;
+        width: 260px;
+        height: 300px;
+    }
+
+    .continueButton {
+        
+    }
