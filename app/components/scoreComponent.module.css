@@ -1,0 +1,79 @@
+.mainContainer {
+    display: flex;
+    height: 56px;
+    width: 288px;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 12px;
+}
+.reactionContainer {
+    display: flex;
+    height: 56px;
+    width: 288px;
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 12px;
+}
+.memoryContainer {
+    display: flex;
+    height: 56px;
+    width: 288px;
+    background-color: rgb(255, 178, 30, 0.1);
+    border-radius: 12px;
+}
+.verbalContainer {
+    display: flex;
+    height: 56px;
+    width: 288px;
+    background-color: rgba(0, 255, 0, 0.1);
+    border-radius: 12px;
+}
+.visualContainer {
+    display: flex;
+    height: 56px;
+    width: 288px;
+    background-color: rgba(0, 0, 255, 0.1);
+    border-radius: 12px;
+}
+
+.iconContainer {
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    opacity: 100%
+}
+
+.categoryReactionText {
+    display: flex;
+    width: 70%;
+    color: red;
+    align-items: center;
+}
+.categoryMemoryText {
+    display: flex;
+    width: 70%;
+    color: #FFB21E;
+    align-items: center;
+}
+.categoryVerbalText {
+    display: flex;
+    width: 70%;
+    color: green;
+    align-items: center;
+}
+.categoryVisualText {
+    display: flex;
+    width: 70%;
+    color: blue;
+    align-items: center;
+}
+
+.scoreContainer {
+    display: flex;
+    width: 30%;
+    color: black;
+    opacity: 100%;
+    align-items: center;
+}
+.hundred {
+    color: grey;
+}
