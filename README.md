@@ -1,6 +1,5 @@
 
-![Screenshot 2024-10-22 at 10 33 00](https://github.com/user-attachments/assets/a76ae206-3d76-4098-8379-30d2918e17a7)
-
+![Screenshot 2024-10-22 at 10 43 13](https://github.com/user-attachments/assets/8294757b-88eb-4e85-b9f6-97bcf71b76b4)
 
 ## Background
 
@@ -19,4 +18,4 @@ I only had a few challenges. Initially the switch to mobile gave me some issues 
 
 I'm happy with my project as it is.
 
-This can been seen at [this githubpages site](https://ropenfold.github.io/frontend-mentor-nft-preview-card-component/)
+This can been seen at [this githubpages site](https://ropenfold.github.io/frontend-mentor-results-summary/)
